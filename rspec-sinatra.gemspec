@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   ## If your rubyforge_project name is different, then edit it and comment out
   ## the sub! line in the Rakefile
   s.name              = 'rspec-sinatra'
-  s.version           = '0.1.2'
+  s.version           = '0.2.0'
   s.date              = '2014-10-13'
   s.rubyforge_project = 'rspec-sinatra'
 
@@ -26,8 +26,10 @@ Gem::Specification.new do |s|
 
   s.rdoc_options = ["--charset=UTF-8"]
   s.extra_rdoc_files = %w[README.md LICENSE]
+  s.required_ruby_version = '<2.4.0'
 
-  s.add_dependency('templater', [">= 1.0.0"])
+  s.add_development_dependency "rspec"
+  s.add_runtime_dependency('templater', [">= 1.0.0"])
 
   # = MANIFEST =
   s.files = %w[
