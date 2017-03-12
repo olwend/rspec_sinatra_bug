@@ -1,5 +1,7 @@
 rspec-sinatra
 ================
+##N.B. Repo created to investigate and contribute on opensource   
+[rspec-sinatra gem incompatible with 2.4.0](https://github.com/tansaku/rspec-sinatra/issues/2)
 
 # Description
 
